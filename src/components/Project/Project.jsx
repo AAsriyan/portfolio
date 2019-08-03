@@ -98,13 +98,16 @@ const Project = () => {
 						your dream company!
 					</p>
 					<a
-						href="https://droom-buildweek-4-15-19.herokuapp.com/"
+						href="https://github.com/AAsriyan/buildWeek4_15_19-Droom-BE"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<button className="droom-btn">View Backend</button>
+						<button className="droom-btn">
+							<FontAwesomeIcon icon={faGithub} className="github-logo" />
+							<span>View Backend</span>
+						</button>
 					</a>
-					<div>
+					{/* <div>
 						<FontAwesomeIcon icon={faGithub} className="github-logo" />
 						<a
 							href="https://github.com/AAsriyan/buildWeek4_15_19-Droom-BE"
@@ -114,7 +117,7 @@ const Project = () => {
 						>
 							Backend
 						</a>
-					</div>
+					</div> */}
 				</div>
 				<div className="project-image droom">
 					<img src={DroomLogo} alt="" className="droom-img" />
