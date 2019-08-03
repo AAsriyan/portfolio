@@ -11,7 +11,7 @@ const About = () => {
 					Since I graduated with a finance degree nearly 3 years ago, I've taken
 					up the adventure of programming on the web. After a year of honing my
 					skills, I am ready to break into the industry. I'm ambitious,
-					determined, fiercly passionate about my work.
+					determined, and fiercly passionate about my work.
 				</p>
 			</div>
 		</div>
