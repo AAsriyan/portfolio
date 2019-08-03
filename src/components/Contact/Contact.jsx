@@ -82,8 +82,8 @@ class Contact extends Component {
 							rows="5"
 							required
 						/>
-						<input type="hidden" name="_next" value="http://localhost:3000/" />
-						<input type="hidden" name="_subject" value="Website contact" />
+						<input type="hidden" name="_next" value="https://asriyan.dev/" />
+						<input type="hidden" name="_subject" value={this.state.subject} />
 						<input type="text" name="_gotcha" style={{ display: 'none' }} />
 						<button className={blocked ? `disabled-btn` : ''}>
 							Send{' '}
