@@ -1,0 +1,66 @@
+$breakpoint-tablet: 950px;
+$breakpoint-mobile: 750px;
+
+.skills {
+	display: flex;
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+	background-color: white;
+	margin-top: -135px;
+	border-radius: 12px;
+
+	@media (max-width: $breakpoint-mobile) {
+		flex-direction: column;
+	}
+
+	.stack {
+		padding: 45px 20px;
+		border-bottom: 0px solid #e6ecf8;
+		border-right: 1px solid #e6ecf8;
+		border-radius: 12px;
+		text-align: center;
+		max-width: 50%;
+		width: 100%;
+
+		@media (max-width: $breakpoint-mobile) {
+			max-width: 100%;
+		}
+
+		.react-logo {
+			animation: App-logo-spin infinite 20s linear;
+			margin-bottom: 20px;
+		}
+
+		.node-logo {
+			animation: App-logo-spin infinite 20s linear;
+			max-width: 400px;
+			width: 62%;
+			margin-bottom: 20px;
+		}
+
+		h4 {
+			font-size: 20px;
+		}
+
+		p {
+			font-size: 18px;
+			font-weight: 300;
+			z-index: 1;
+		}
+
+		.p-title {
+			font-weight: 400;
+			color: #8b43ff;
+		}
+	}
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
