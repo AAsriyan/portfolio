@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import NavBar from '../NavBar/NavBar.jsx';
 import { ReactComponent as DeveloperSVG } from '../../assets/images/developer.svg';
 import { ReactComponent as DeskSVG } from '../../assets/images/desk.svg';
@@ -11,7 +10,8 @@ const TopIntro = () => {
 		<div className="top-intro">
 			<NavBar />
 			<h1>
-				Hello, my name is <span>Arshak Asriyan</span>
+				Hello, my name is <br />
+				<span>Arshak Asriyan</span>
 			</h1>
 			<div className="intro">
 				<div className="intro-text">
