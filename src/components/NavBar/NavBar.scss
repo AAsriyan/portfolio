@@ -5,6 +5,7 @@ $breakpoint-mobile: 750px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 0 20px;
 
 	@media (max-width: $breakpoint-mobile) {
 		flex-direction: column;
