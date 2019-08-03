@@ -1,0 +1,141 @@
+$breakpoint-tablet: 950px;
+$breakpoint-mobile: 750px;
+
+.top-intro {
+	text-align: center;
+	background-color: #f4f5fa;
+	padding: 20px;
+	padding-bottom: 0;
+	width: 100%;
+	margin: auto;
+	border-radius: 10px;
+
+	h1 {
+		text-align: center;
+		font-size: 50px;
+		margin: 100px 0;
+		span {
+			color: #8b43ff;
+		}
+	}
+
+	.intro {
+		display: flex;
+
+		@media (max-width: $breakpoint-tablet) {
+			flex-direction: column;
+			max-width: 800px;
+			width: 90%;
+			margin: auto;
+
+			.intro-image {
+				width: 100%;
+				margin-top: 50px;
+			}
+		}
+		.intro-text {
+			max-width: 50%;
+			width: 100%;
+
+			@media (max-width: $breakpoint-tablet) {
+				max-width: 100%;
+				width: 90%;
+			}
+
+			h2 {
+				color: #8b43ff;
+				font-size: 30px;
+			}
+
+			p {
+				font-size: 20px;
+				font-weight: 300;
+			}
+
+			button {
+				cursor: pointer;
+				height: 50px;
+				padding: 8px 8px;
+				font-family: Montserrat, sans-serif;
+				font-weight: 700;
+				font-size: 0.688rem;
+				line-height: 18px;
+				letter-spacing: 1.54px;
+				text-transform: uppercase;
+				border-radius: 25px;
+
+				&:focus {
+					outline: none;
+				}
+			}
+
+			.intro-buttons {
+				margin: 40px;
+				display: flex;
+				justify-content: space-around;
+				align-items: baseline;
+
+				@media (max-width: $breakpoint-mobile) {
+					flex-direction: column;
+					max-width: 500px;
+					justify-content: center;
+					align-items: center;
+				}
+
+				.contact-btn {
+					background-color: #f4f5fa;
+					position: relative;
+					text-decoration: none;
+					color: #8b43ff;
+					border: 1px solid #8b43ff;
+					max-width: 144px;
+					width: 144px;
+
+					@media (max-width: $breakpoint-mobile) {
+						max-width: 144px;
+						width: 144px;
+						margin-bottom: 10px;
+					}
+				}
+
+				.portfolio-btn {
+					color: white;
+					background-color: #8b43ff;
+					max-width: 144px;
+					width: 144px;
+
+					&:hover {
+						background-color: #905de0;
+					}
+
+					@media (max-width: $breakpoint-mobile) {
+						max-width: 144px;
+						width: 144px;
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+
+		.intro-image {
+			max-width: 50%;
+			width: 100%;
+
+			@media (max-width: $breakpoint-tablet) {
+				max-width: 100%;
+				width: 90%;
+			}
+
+			svg {
+				max-width: 80%;
+				height: 100%;
+			}
+		}
+	}
+
+	.desk {
+		margin-top: 130px;
+		max-width: 600px;
+		width: 100%;
+	}
+}
