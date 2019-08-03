@@ -73,6 +73,12 @@ $breakpoint-mobile: 750px;
 
 			.droom-btn {
 				background-image: linear-gradient(135deg, #b97b62 -20%, #f0400b 120%);
+				margin: auto;
+
+				.github-logo {
+					margin-right: 5px;
+					font-size: 15px;
+				}
 			}
 
 			.github-links {
