@@ -17,6 +17,10 @@ $breakpoint-mobile: 750px;
 		span {
 			color: #8b43ff;
 		}
+
+		@media (max-width: $breakpoint-mobile) {
+			font-size: 40px;
+		}
 	}
 
 	.intro {
