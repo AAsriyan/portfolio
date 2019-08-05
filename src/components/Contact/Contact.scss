@@ -15,6 +15,10 @@ $breakpoint-mobile: 750px;
 		flex-direction: column;
 	}
 
+	@media (max-width: $breakpoint-mobile) {
+		padding: 0;
+	}
+
 	h2 {
 		font-size: 40px;
 		letter-spacing: 1.25px;
@@ -62,6 +66,10 @@ $breakpoint-mobile: 750px;
 			max-width: 100%;
 			width: 100%;
 			padding: 50px;
+		}
+
+		@media (max-width: $breakpoint-mobile) {
+			padding: 20px;
 		}
 
 		.message-text {
