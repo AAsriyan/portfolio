@@ -1,3 +1,6 @@
+$breakpoint-tablet: 950px;
+$breakpoint-mobile: 750px;
+
 .App {
 	max-width: 80%;
 	margin: auto;
@@ -9,4 +12,8 @@
 	-webkit-box-shadow: 0px 7px 14px 3px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow: 0px 7px 14px 3px rgba(50, 50, 50, 0.75);
 	box-shadow: 0px 7px 14px 3px rgba(50, 50, 50, 0.75);
+
+	@media (max-width: $breakpoint-mobile) {
+		max-width: 90%;
+	}
 }
