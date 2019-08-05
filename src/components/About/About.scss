@@ -1,7 +1,15 @@
+$breakpoint-tablet: 950px;
+$breakpoint-mobile: 750px;
+
 .about {
 	background-color: #8b43ff;
 	padding: 100px;
 	padding-bottom: 225px;
+
+	@media (max-width: $breakpoint-mobile) {
+		padding: 50px;
+		padding-bottom: 225px;
+	}
 	h3 {
 		text-align: center;
 		color: #ffffff;
@@ -19,5 +27,9 @@
 		margin: auto;
 		max-width: 500px;
 		width: 100%;
+
+		@media (max-width: $breakpoint-mobile) {
+			font-size: 16px;
+		}
 	}
 }
